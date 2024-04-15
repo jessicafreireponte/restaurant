@@ -1,0 +1,37 @@
+{
+  "restaurantes": [
+    {
+      "id": 1,
+      "nombre": "Restaurante del Mar",
+      "date": "15/04/24",
+      "tipo_comida": ["Mariscos", "Pescados"],
+      "direccion": "Calle Principal 123, Ciudad",
+      "telefono": "123-456-7890",
+      "horario": "Lun - Vie: 12pm - 10pm, Sáb - Dom: 11am - 11pm",
+      "imagen": "./salad-1672505_1280.jpg",
+      "resena": "Restaurante del Mar ofrece una amplia variedad de platillos frescos del mar, desde langostas hasta pescados exóticos. Ven y disfruta de una experiencia gastronómica inolvidable."
+    },
+    {
+      "id": 2,
+      "nombre": "Asador Criollo",
+      "date": "15/04/24",
+      "tipo_comida": ["Carnes", "Parrilladas"],
+      "direccion": "Avenida Principal 456, Ciudad",
+      "telefono": "987-654-3210",
+      "horario": "Todos los días: 11am - 11pm",
+      "imagen": "./salad-1672505_1280.jpg",
+      "resena": "En Asador Criollo, nuestras carnes son asadas a la perfección para garantizar sabores únicos y jugosidad en cada bocado. ¡Ven y prueba nuestros cortes premium y parrilladas especiales!"
+    },
+    {
+      "id": 3,
+      "nombre": "Café del Parque",
+      "date": "15/04/24",
+      "tipo_comida": ["Desayunos", "Cafetería"],
+      "direccion": "Plaza Central 789, Ciudad",
+      "telefono": "555-123-4567",
+      "horario": "Lun - Vie: 8am - 6pm, Sáb: 9am - 4pm",
+      "imagen": "./salad-1672505_1280.jpg",
+      "resena": "Café del Parque es el lugar perfecto para comenzar tu día con deliciosos desayunos, café recién preparado y un ambiente acogedor. ¡Ven y disfruta de nuestra variedad de opciones para desayunar!"
+    }
+  ]
+}

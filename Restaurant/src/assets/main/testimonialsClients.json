@@ -1,0 +1,22 @@
+{
+  "testimonios": [
+    {
+      "id": 1,
+      "nombre": "Ana García",
+      "value": 4.5,
+      "testimonio": "He tenido una experiencia increíble en el restaurante XYZ en Madrid. La comida estaba deliciosa y el servicio fue impecable. Definitivamente regresaré pronto."
+    },
+    {
+      "id": 2,
+      "nombre": "Carlos Martínez",
+      "value": 5,
+      "testimonio": "El restaurante ABC en Barcelona ofrece platos exquisitos que deleitan el paladar. La presentación de los platos y el ambiente del lugar son inigualables."
+    },
+    {
+      "id": 3,
+      "nombre": "Laura Sánchez",
+      "value": 4.8,
+      "testimonio": "No puedo dejar de hablar sobre mi visita al restaurante EFG en Valencia. Cada plato era una obra maestra y el personal era amable y atento en todo momento."
+    }
+  ]
+}

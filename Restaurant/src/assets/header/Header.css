@@ -1,0 +1,51 @@
+/* Header.css */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--color-quaternary);
+  position: relative;
+  top: 0;
+  z-index: 88;
+}
+
+header ul {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  background-color: var(--color-secondary);
+  width: 50%;
+  list-style: none;
+  padding: 2rem 2rem;
+  display: none;
+  height: 93.3vh;
+  z-index: 99;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+header ul li#closeButton {
+  color: white;
+  display: flex;
+  justify-content: flex-end; /* Alinea el botón de cierre a la derecha */
+}
+header ul li#redes {
+  margin-top: 2rem;
+  border-top: 1px solid white;
+  padding: 1rem 0;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+header ul.show {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

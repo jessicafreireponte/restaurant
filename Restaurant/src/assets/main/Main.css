@@ -1,0 +1,246 @@
+/*----SectionOne------*/
+main section.main-section article {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.514);
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  color: white;
+}
+
+main section.main-section h1 {
+  font-size: 52px;
+}
+
+main section.main-section h2 {
+  font-size: 28px;
+  color: var(--color-quaternary);
+}
+
+main section.main-section p {
+  width: 60%;
+}
+
+/*----SectionTwo------*/
+section.main-section-two,
+section.main-section-four,
+section.main-section-six,
+section.main-section-seven {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+section.main-section-two,
+section.main-section-seven {
+  background-image: url("./plate-303475_1280.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+section.main-section-two article {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+section.main-section-two article a {
+  color: var(--color-primary);
+  text-decoration: none;
+  display: flex;
+  gap: 8px;
+}
+
+section.main-section-two article a:hover {
+  color: var(--color-quaternary);
+}
+
+/*----SectionThree------*/
+
+section.main-section-three,
+section.main-section-five,
+section.main-section-eight {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.main-section-three {
+  background-image: url("./asparagus-2169305_1280.jpg");
+}
+
+section.main-section-three article,
+section.main-section-five article,
+section.main-section-eight article {
+  padding: 3rem;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.603);
+  color: white;
+}
+
+section.main-section-three article a,
+section.main-section-five article a {
+  background-color: var(--color-primary);
+  padding: 10px 28px;
+  color: white;
+  text-decoration: none;
+}
+section.main-section-three article a:hover,
+section.main-section-five article a:hover {
+  background-color: var(--color-secondary);
+  padding: 10px 28px;
+  color: var(--color-quaternary);
+  text-decoration: none;
+}
+
+/*----SectionFour------*/
+
+section.main-section-four ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+section.main-section-four li h4.active,
+section.main-section-four li h4:hover {
+  border-bottom: 0px solid black;
+  color: black;
+}
+
+section.main-section-four li h4.active,
+section.main-section-four li h4:hover {
+  border-bottom: 1px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+section.main-section-four section {
+  display: none;
+}
+
+section.main-section-four section.showTwo,
+section.main-section-four section.showOne {
+  display: block;
+}
+
+/*----OrderFavorite------*/
+article.order-favorite {
+  display: flex;
+  flex-direction: column;
+}
+
+article.order-favorite ul {
+  display: flex;
+  flex-direction: column;
+}
+
+article.order-favorite ul li {
+  display: inline;
+  border-bottom: 1px dashed var(--color-secondary);
+  padding: 0.5rem 0;
+}
+
+article.order-favorite ul li p {
+  font-weight: bold;
+  text-align: end;
+  color: var(--color-primary);
+}
+
+/*----SectionFive------*/
+section.main-section-five {
+  background-image: url("./restaurant-449952_1280.jpg");
+  text-align: center;
+}
+
+/*----SectionSix------*/
+section.main-section-six ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+section.main-section-six ul li {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  border-bottom: 1px solid gray;
+}
+
+section.main-section-six ul li:last-child {
+  border-bottom: 0px solid gray;
+}
+
+article img.camareraBanner {
+  width: 100vw;
+  height: 20vh;
+  object-fit: cover;
+}
+
+/*----SectionSeven------*/
+section.main-section-seven ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.2rem;
+}
+
+section.main-section-seven ul li {
+  background-color: rgba(245, 245, 245, 0.932);
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.281);
+  display: flex;
+  flex-direction: column;
+}
+
+section.main-section-seven ul li img {
+  width: 100%;
+}
+
+section.main-section-seven ul li article {
+  padding: 1rem 1.5rem;
+}
+
+section.main-section-seven ul li h6 {
+  align-self: flex-end; /* Alinea el texto del h6 a la parte inferior del contenedor li */
+  background-color: var(--color-secondary);
+  color: white;
+  padding: 0.5rem 1rem; /* Ajusta el espaciado según sea necesario */
+  margin-top: -20px;
+  font-size: 14px;
+}
+
+section.main-section-seven ul li article h4 {
+  font-size: 18px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 1rem;
+}
+
+/*----SectionEight------*/
+
+section.main-section-eight {
+  background-image: url("./restaurant-5521372_1280.jpg");
+  background-position: center;
+  margin-top: 1.5rem;
+}
+
+section.main-section-eight article ul,
+header ul li ol {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+}
+
+section.main-section-eight article p {
+  text-align: center;
+}

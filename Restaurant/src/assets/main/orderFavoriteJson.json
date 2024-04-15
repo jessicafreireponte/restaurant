@@ -1,0 +1,65 @@
+{
+  "restaurante": "Nombre del Restaurante",
+  "menus": [
+    {
+      "titulo": "Desayuno",
+      "platos": [
+        {
+          "nombre": "Huevos Revueltos",
+          "descripcion": "Huevos revueltos con tocino y pan tostado",
+          "precio": 9.99
+        },
+        {
+          "nombre": "Panqueques",
+          "descripcion": "Panqueques con miel y frutas frescas",
+          "precio": 7.99
+        },
+        {
+          "nombre": "Omelette Vegetariano",
+          "descripcion": "Omelette con champiñones, espinacas y queso",
+          "precio": 10.99
+        }
+      ]
+    },
+    {
+      "titulo": "Almuerzo",
+      "platos": [
+        {
+          "nombre": "Pasta Carbonara",
+          "descripcion": "Pasta con salsa carbonara, panceta y queso parmesano",
+          "precio": 12.99
+        },
+        {
+          "nombre": "Ensalada César",
+          "descripcion": "Ensalada fresca con pollo a la parrilla y aderezo César",
+          "precio": 8.99
+        },
+        {
+          "nombre": "Hamburguesa Clásica",
+          "descripcion": "Hamburguesa con carne de res, queso, lechuga y tomate",
+          "precio": 11.99
+        }
+      ]
+    },
+    {
+      "titulo": "Cena",
+      "platos": [
+        {
+          "nombre": "Salmón a la Parrilla",
+          "descripcion": "Filete de salmón a la parrilla con espárragos y puré de papas",
+          "precio": 16.99
+        },
+        {
+          "nombre": "Filete Mignon",
+          "descripcion": "Filete mignon con salsa de champiñones y papas asadas",
+          "precio": 24.99
+        },
+        {
+          "nombre": "Cazuela de Mariscos",
+          "descripcion": "Cazuela con variedad de mariscos en salsa de tomate",
+          "precio": 19.99
+        }
+      ]
+    }
+  ]
+}

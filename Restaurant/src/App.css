@@ -1,0 +1,8 @@
+#root {
+  max-width: 100vw;
+
+  --color-primary: #465c45;
+  --color-secondary: #141e15;
+  --color-tertiary: #789778;
+  --color-quaternary: #99b899;
+}
